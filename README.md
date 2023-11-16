@@ -1,6 +1,3 @@
-Certainly! Below is the same content formatted in Markdown:
-
----
 
 # Celery Template Project
 
