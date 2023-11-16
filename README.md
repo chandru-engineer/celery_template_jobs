@@ -82,7 +82,6 @@ The project includes the following scheduled tasks:
 
 - `execute_task_1_job`: The first scheduled task is simple schedule job will run every 1 min.
 - `execute_task_2_job`: The second scheduled task to demonstrate celery retry functionalty.
-- ...
 
 ## Retrying Mechanism
 
