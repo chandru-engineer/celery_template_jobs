@@ -1,5 +1,5 @@
 
-```markdown
+
 # Celery Template Project
 
 This is a template project to help new learners get started with Celery. It includes configurations for logging, environment variables using `.env`, PostgreSQL as the message broker, and scheduled jobs with different timings.
@@ -61,6 +61,7 @@ celery -A run beat --loglevel=info
 ```bash
 celery -A run worker --loglevel=info -P eventlet
 ```
+
 
 ### Increase Celery Worker Concurrency
 
@@ -170,4 +171,3 @@ def send_mail():
 
 Now, when you hit the `/send_mail` route in your Flask application, it will trigger the Celery task to send emails asynchronously. The increased concurrency level will allow multiple tasks to be processed concurrently by the Celery worker.
 
-```
